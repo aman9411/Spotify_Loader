@@ -1,0 +1,75 @@
+body{
+    background-color: #0d1117;
+    color: #fff;
+    padding-top: 100px;
+    font-size: 45px;
+    padding-left: 35%;
+    line-height: 0px;
+}
+
+img{
+    border: 1px solid purple;
+    border-radius: 10px;
+    width: 550px;
+}
+
+.htmleditor{
+    position: absolute;
+    font-size: 20px;
+    top: 24.5%;
+    left: 50.5%;
+}
+
+.csseditor{
+    position: absolute;
+    font-size: 20px;
+    bottom: 16%;
+    left: 51%; 
+}
+
+.tagname{
+    position: absolute;
+    bottom: 13%;
+    right: 35%;
+    padding-bottom: 50px;
+}
+
+
+/* ------screenshot-------- */
+
+
+
+
+
+  .loader{
+    position: absolute;
+    display: flex;
+    top: 55%;
+    right: 40%;
+  }
+  
+  .ball1{
+    width: 20px;
+    height: 20px;
+    background: #808080;
+    border-radius: 50%;
+    margin: 15px 15px 15px 15px;
+    animation: grow .7s ease-in infinite alternate;
+  }
+  
+  .ball1:nth-child(2){
+    animation-delay: 0.30s;
+  
+  }
+  
+  .ball1:nth-child(3){
+    animation-delay: 0.53s;
+  }
+
+
+  @keyframes grow{
+    to{
+      transform: translateX(-50%) scale(1.5);
+      background-color: #fff;
+    }
+  }
